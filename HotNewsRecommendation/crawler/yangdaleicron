@@ -1,0 +1,4 @@
+*/5 * * * * /home/trio/yangdalei/anaconda3/bin/python3.7 /home/trio/yangdalei/crawler/crawler.py  > /home/trio/yangdalei/crawler/crawler.log 2>&1
+00 01 * * * /home/trio/yangdalei/anaconda3/bin/python3.7 /home/trio/yangdalei/crawler/update.py > /home/trio/yangdalei/crawler/update.log 2>&1
+00 04 * * * /home/trio/yangdalei/anaconda3/bin/python3.7 /home/trio/yangdalei/crawler/rank.py > /home/trio/yangdalei/crawler/rank.log 2>&1
+*/5 * * * * /bin/sh /home/trio/yangdalei/crawler/start.sh  > /home/trio/yangdalei/crawler/crawler.log 2>&1
