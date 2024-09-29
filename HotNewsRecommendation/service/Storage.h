@@ -133,6 +133,13 @@ struct Trie{
         }
     }
  
+    /*
+    2024-09-29. Bug found! Not the correct implementation.
+    How to fix:
+    1. "vector s" is ordered. Create all subsets for "s".
+    2. For each subset = one keyword combination, search Trie, if find a exactly match, get details.
+    3. Create a new ExactlyMatch function for search.
+    */
     void allMatch(vector<int>& s, vector<Detail*>& details){
         int n = s.size();
         vector<vector<Detail*>* > result;
