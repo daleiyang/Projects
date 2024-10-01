@@ -30,7 +30,7 @@ test_dir = os.path.join(base_dir, 'test.txt')
 val_dir = os.path.join(base_dir, 'val.txt')
 vocab_dir = os.path.join(base_dir, 'vocab.txt')
 '''
-
+cnn
 base_dir = 'data/products2'
 train_dir = os.path.join(base_dir, 'train.txt')
 test_dir = os.path.join(base_dir, 'test.txt')
