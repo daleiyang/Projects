@@ -1,0 +1,13 @@
+ni hao	S S	你 好	你 好
+xie xie	B E	谢 谢	谢 谢
+zen me ban	B I E	怎 么 办	怎 么 办
+hao de	S S	好 的	好 的
+lof ji jin de jiao yi fei yong shi duo shao	S B E S B E B E S B E	lof 基 金 的 交 易 费 用 是 多 少	lof 基 金 的 交 易 费 用 是 多 少
+# ke yi mai ru ma	S B E B E S	# 可 以 买 入 吗	# 可 以 买 入 吗
+chang an qi che ming ming you li hao xiao xi wei shen me die ne	B E B E B E B E B I E B I E S S	场 安 汽 车 名 明 有 利 号 小 息 为 什 么 跌 呢	长 安 汽 车 明 明 有 利 好 消 息 为 什 么 跌 呢
+fen xi gu piao	B E B E	分 析 股 票	分 析 股 票
+kan jian	B E	看 见	看 见
+su ning yi gou shen me shi hou ke yi ru shou	B E S S B E B E B E B E	苏 柠 以 购 什 么 时 候 客 以 如 手	苏 宁 易 购 什 么 时 候 可 以 入 手
+# ai kang ke ji	S B E B E	# 爱 康 科 技	# 爱 康 科 技
+zai bang wo kan kan san ling ling san er wu bai zhi hou ke yi jia cang ma	S S S S S B I I I I I E B E B E B E S	再 帮 我 看 看 三 零 零 三 儿 无 百 之 后 可 以 加 仓 码	再 帮 我 看 看 三 零 零 三 二 五 百 之 后 可 以 加 仓 吗
+duan ye ke yi	S S B E	端 也 可 以	短 也 可 以
