@@ -15,7 +15,7 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/1.jpg)
 
-- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the structure of the Trie. Refer to lines 166~171 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L166) and lines 6~19 of [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out#L6).
+- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the structure of the Trie. Refer to [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L166) and [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out#L6).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/2.jpg)
 
