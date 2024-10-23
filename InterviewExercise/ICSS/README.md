@@ -1,8 +1,7 @@
-
-
 ## Background
 - Submitter: Dalei Yang
 - [Resume](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Dalei%20Yang%20Resume%2024.10.18.V2.pdf)
+- [2024 Programming Exercise] ()
 
 ## Data Structure
 - The key value in the hash table is a 64-bit integer:
