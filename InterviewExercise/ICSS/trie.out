@@ -1,0 +1,85 @@
+Test Case 1
+
+Reading Operator 1's price list
+Reading Operator 2's price list
+
+Price list:
+PriceId = 0, Operator Id = 1, Price = 0.900000
+PriceId = 1, Operator Id = 1, Price = 5.100000
+PriceId = 2, Operator Id = 1, Price = 0.170000
+PriceId = 3, Operator Id = 1, Price = 0.000000
+PriceId = 4, Operator Id = 1, Price = 0.150000
+PriceId = 5, Operator Id = 1, Price = 0.150000
+PriceId = 6, Operator Id = 1, Price = 0.900000
+PriceId = 7, Operator Id = 1, Price = 1.100000
+PriceId = 8, Operator Id = 2, Price = 0.920000
+PriceId = 9, Operator Id = 2, Price = 0.500000
+PriceId = 10, Operator Id = 2, Price = 0.200000
+PriceId = 11, Operator Id = 2, Price = 1.000000
+PriceId = 12, Operator Id = 2, Price = 1.200000
+
+Nodes in the Trie:
+Node Id = 0, content =  0  1  2  0  5  0  0  0  0  0 
+Node Id = 1, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 2, content =  0  0  0  0  0  0  3  0  0  0 
+Node Id = 3, content =  0  0  0  0  0  0  0  0  4  0 
+Node Id = 4, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 5, content =  0  0  0  0  15  0  6  0  16  0 
+Node Id = 6, content =  0  0  7  10  0  0  0  12  9  0 
+Node Id = 7, content =  8  0  0  0  0  0  0  0  0  0 
+Node Id = 8, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 9, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 10, content =  0  11  0  0  0  0  0  0  0  0 
+Node Id = 11, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 12, content =  0  0  0  13  0  0  0  0  0  0 
+Node Id = 13, content =  0  0  14  0  0  0  0  0  0  0 
+Node Id = 14, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 15, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 16, content =  0  0  0  0  0  0  0  0  0  0 
+
+Prefix nodes in the Trie:
+Node Id = 0, pricesId list = 
+Node Id = 1, pricesId list =  0  8 
+Node Id = 2, pricesId list = 
+Node Id = 3, pricesId list = 
+Node Id = 4, pricesId list =  1 
+Node Id = 5, pricesId list = 
+Node Id = 6, pricesId list =  2  10 
+Node Id = 7, pricesId list = 
+Node Id = 8, pricesId list =  3 
+Node Id = 9, pricesId list =  4 
+Node Id = 10, pricesId list = 
+Node Id = 11, pricesId list =  5 
+Node Id = 12, pricesId list =  11 
+Node Id = 13, pricesId list =  6 
+Node Id = 14, pricesId list =  7 
+Node Id = 15, pricesId list =  9 
+Node Id = 16, pricesId list =  12 
+
+Phone number is = 4673212345
+Operator ID = 1, Price = 1.100000
+Operator ID = 2, Price = 1.000000
+Lowest price: operator id = 2, price = 1.000000
+
+Test Case 2
+
+Reading Operator 1's price list
+Reading Operator 2's price list
+
+Price list:
+PriceId = 0, Operator Id = 1, Price = 0.900000
+PriceId = 1, Operator Id = 2, Price = 0.920000
+
+Nodes in the Trie:
+Node Id = 0, content =  0  1  2  0  0  0  0  0  0  0 
+Node Id = 1, content =  0  0  0  0  0  0  0  0  0  0 
+Node Id = 2, content =  0  0  0  0  0  0  0  0  0  0 
+
+Prefix nodes in the Trie:
+Node Id = 0, pricesId list = 
+Node Id = 1, pricesId list =  0 
+Node Id = 2, pricesId list =  1 
+
+Phone number is = 4673212345
+Lowest price: operator id = 2, price = 10000000000.000000
+
