@@ -54,7 +54,7 @@ struct Trie{
                 //It's a new path in Trie, create a new node.
                 vector<int> new_node(sigma_size);
                 nodes.push_back(new_node);
-                
+
                 //Link new node to it's parent at specific position.
                 nodes[index][number] = nodes.size()-1;
 
@@ -131,36 +131,45 @@ int main(){
 
     while(kase--){
         printf("Test Case %d\n\n", cnt++);
+
         //Init trie
         trie.Clear();     
-    
+
         //For reading input only
         int lines;
         char pattern[1024];
         float price;     
         int operatorId = 1; 
-        
+
         //lines means how many price one operator has.
         //lines == 0 means test case is finished, no more operator data need to read.
         while(scanf("%d", &lines) == 1 && lines){
             printf("Reading Operator %d's price list\n", operatorId);
             for(int i = 0; i < lines; i++){
                 scanf("%s%f", pattern, &price);
+
+                //Create a Price instance.
                 Price p;
                 p.operatorId = operatorId;
                 p.price = price;
                 trie.prices.push_back(p);
                 int priceId = trie.prices.size()-1;
-                trie.Insert(pattern, priceId);  //Build trie
+
+                //Build trie with the pattern and price id.
+                trie.Insert(pattern, priceId);  
             }
-            operatorId++; //read price list for next operator.
+            //read price list for next operator.
+            operatorId++; 
         }
 
         trie.Debug(); //For debuging only
 
-        //For one phone nunmber, get the longest match for each operator and price.
+        //Which phone number you want to dail?
         char phone_number[1024];
         scanf("%s", &phone_number);
+
+        //For one phone nunmber, get the longest match for each operator and price.
+        //The key for match is operator id, value is price id.
         map<int, float> match;
         trie.LongestMatch(phone_number, match);
 
@@ -170,6 +179,13 @@ int main(){
         printf("Phone number is = %s\n", phone_number);
         for(it = match.begin(); it != match.end(); it++){
             printf("Operator ID = %d, Price = %f\n", it->first, it->second);
+        }
+
+        //If no match found
+        if(match.size() == 0){
+            printf("No operator can do this.\n\n");
+            //Go to next test case.
+            continue;
         }
 
         //Find the operator with lowest price

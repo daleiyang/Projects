@@ -81,5 +81,19 @@ Node Id = 1, pricesId list =  0
 Node Id = 2, pricesId list =  1 
 
 Phone number is = 4673212345
-Lowest price: operator id = 2, price = 10000000000.000000
+No operator can do this.
+
+Test Case 3
+
+
+Price list:
+
+Nodes in the Trie:
+Node Id = 0, content =  0  0  0  0  0  0  0  0  0  0 
+
+Prefix nodes in the Trie:
+Node Id = 0, pricesId list = 
+
+Phone number is = 4673212345
+No operator can do this.
 
