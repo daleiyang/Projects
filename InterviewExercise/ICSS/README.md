@@ -31,7 +31,7 @@
   1. The first number is "4". From the root node (nodes[0]), we find out the value in the nodes[0][4] is 5. This means we need to move to nodes[5]. We check prefixs[5], the price list is empty, it means no operator has prefix "4".
   2. Next number is "6". We find out the value in the nodes[5][6] is 6. This means we need to move to nodes[6]. We check prefixs[6] and find prices[2] and prices[10]. So, for the prefix "46", operator 1's price is prices[2] = 0.17, operator 2's price is prices[10] = 0.2.
   3. Next number is "7". We find out the value in the nodes[6][7] is 12. This means we need to move to nodes[12]. We check prefixs[12] and find prices[11]. So, for the prefix "467", operator 2's price is prices[11] = 1.0. We discard prices[10] = 0.2 for operator 2.
-  4. Next number is "3". We find out the value in the nodes[12][3] is 13. This means we need to move to nodes[13]. We check prefixs[13] and find prices[6]. So, for the prefix "4673", operator 1's price is prices[6] = 0.9. We discard prices[2] = 0.17 for operator 1 and keep prices[6] = 0.9.
+  4. Next number is "3". We find out the value in the nodes[12][3] is 13. This means we need to move to nodes[13]. We check prefixs[13] and find prices[6]. So, for the prefix "4673", operator 1's price is prices[6] = 0.9. We discard prices[2] = 0.17 for operator 1.
   5. Next number is "2". We find out the value in the nodes[13][2] is 14. This means we need to move to nodes[14]. We check prefixs[14], prices[7] is found. So, for the prefix "46732", operator 1's price is prices[7] = 1.1. We discard prices[6] = 0.9 for operator 1 and keep prices[7] = 1.1.
   6. Next number is "1". We find out the value in the nodes[14][1] is 0. So, we stop here.
 
