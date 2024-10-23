@@ -11,9 +11,15 @@
 ## Algorithm
 - I use a Trie (prefix tree) to solve this problem.
 
-- I used test cases in "2024 Programming Exercises" to demonstrate my implementation.
+- I use test cases in "2024 Programming Exercises" to demonstrate my implementation.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/1.jpg)
+
+- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie structure.
+
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/2.jpg)
+
+
 
 - The combination of linkId, clcId, sbp in the figure above becomes the key value of the business logic, with a size of 54 bytes.
 - The code in the figure below is the process of generating a 54-byte key value based on business logic, refer to [KeyIn54BitCASHashTable.cs](https://github.com/daleiyang/LockFreeHashTable/blob/master/CASHashTable/KeyIn54BitCASHashTable.cs).
