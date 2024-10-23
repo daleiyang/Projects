@@ -15,10 +15,15 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/1.jpg)
 
-- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie's structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/2.jpg)
 
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/3.jpg)
+
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
+
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/5.jpg)
 
 
 - The combination of linkId, clcId, sbp in the figure above becomes the key value of the business logic, with a size of 54 bytes.
