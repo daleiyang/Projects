@@ -27,9 +27,9 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
 
-- For example: prefix is "46732". 
-  1. The first number is "4". From the root node (nodes[0]), we find out the value in the nodes[0][4] is 5. This means we need to move to nodes[5].
-  2. Next number is "6". 
+- For example: prefix is "46732". Refer to lines 76-103 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L76)
+  1. The first number is "4". From the root node (nodes[0]), we find out the value in the nodes[0][4] is 5. This means we need to move to nodes[5]. We check prefixs[5], the price list is empty, it means no operator has prefix "4".
+  2. Next number is "6". We find out the value in the nodes[5][6] is 6. This means we need to move to nodes[6]. We check prefixs[6], there are two prices[2] and prices[10] were found. So, for the prefix "46", operator 1's price is prices[2] = 0.17, operator 2's price is prices[10] = 0.2.
   3. 
   4. 
   5. 
