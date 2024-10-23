@@ -29,7 +29,7 @@
 
 - For example: the prefix "46732".
 
-- After getting the longest prefix-matching for each operator (if there is a match), we only need to check each returned item to find the one with the lowest price.
+- After getting the longest prefix-matching for each operator (if there is a match), we only need to check each returned item to find the one with the lowest price. Refer to lines 206-214 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L206)
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/5.jpg)
 
