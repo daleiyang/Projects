@@ -45,8 +45,12 @@ struct Trie{
 
     //Build Trie
     void Insert(const char* prefix, int price_index){
-        int index = 0;                  //Start from the root node.
+        //Start from the root node.
+        int index = 0;       
+
+        //How depth along the trie will we have to go.           
         int prefix_size = strlen(prefix);
+
         for(int i = 0; i < prefix_size; i++){
             int number = CharToInt(prefix[i]);
             if(nodes[index][number] == 0){
@@ -58,25 +62,34 @@ struct Trie{
                 //Link new node to it's parent at specific position.
                 nodes[index][number] = nodes.size()-1;
 
-                //Holding prefixs for this new node. It has same index with the corresponding node's index.
+                //Holding prefixs for this new node. It has the same index with the corresponding node's index.
                 vector<int> price_list; 
                 prefixs.push_back(price_list);
             }
-            index = nodes[index][number];       //move to the next node.
+            //move to the next node.
+            index = nodes[index][number];       
         }
-        prefixs[index].push_back(price_index);  //Add price_index to prefixs list.
+        //Add price_index to prefixs list.
+        prefixs[index].push_back(price_index);  
     }
 
     //Find the longest match for each operator.
     void LongestMatch(const char* phoneNumber, map<int, float>& match){
+        //How depth along the trie will we have to go.
         int len = strlen(phoneNumber);
-        int index = 0;                          //Start from the root node.
+
+        //Start from the root node.
+        int index = 0;                          
 
         for(int i = 0; i < len; i++){
             int number = CharToInt(phoneNumber[i]);
-            if(nodes[index][number] == 0) return;    //No more pattern found, return from there.
 
-            index = nodes[index][number];       //move to the next node.
+            //No more pattern found, return from there.
+            if(nodes[index][number] == 0) return;    
+
+            //move to the next node.
+            index = nodes[index][number];       
+
             if(prefixs[index].size() != 0){  
                 //Check each price in this node and keep the longest one for each operator.
                 for(int j = 0; j < prefixs[index].size(); j++){
@@ -124,9 +137,11 @@ int main(){
 	freopen("trie.out", "w", stdout);
 #endif
 
-    Trie trie;  //Create a prefix tree.
+    //Create a prefix tree.
+    Trie trie;  
 
-    int kase, cnt = 1;   //How many test case we have.
+    //How many test case we have.
+    int kase, cnt = 1;   
     scanf("%d", &kase);
 
     while(kase--){
