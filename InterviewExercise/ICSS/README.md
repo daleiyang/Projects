@@ -23,9 +23,11 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/3.jpg)
 
-- Create 17 price list objects for these 17 nodes. Each price list object contains the prices of operators with the same prefix. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+- Create 17 price list objects for these 17 nodes. Each price list object contains the prices of operators with the same prefix which belong to this node. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
+
+- For example: the prefix "46732".
 
 - Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie's structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
 
