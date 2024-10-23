@@ -19,9 +19,15 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/2.jpg)
 
+- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie's structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/3.jpg)
 
+- Create 17 “node” objects for these 13 prefixes. We need to set the corresponding vaules in each node to display the parent-child relationship between these 17 nodes. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
+
+- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie's structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/5.jpg)
 
