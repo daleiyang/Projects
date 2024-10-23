@@ -11,7 +11,8 @@
 ## Algorithm
 - Use a trie (prefix tree) to solve this problem.
 
-![alt tag](https://github.com/daleiyang/LockFreeHashTable/raw/master/DataStructure.png)
+- I used test cases in "2024 Programming Exercises" to demonstrate Trie's mechanism.
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/1.jpg)
 
 - The combination of linkId, clcId, sbp in the figure above becomes the key value of the business logic, with a size of 54 bytes.
 - The code in the figure below is the process of generating a 54-byte key value based on business logic, refer to [KeyIn54BitCASHashTable.cs](https://github.com/daleiyang/LockFreeHashTable/blob/master/CASHashTable/KeyIn54BitCASHashTable.cs).
