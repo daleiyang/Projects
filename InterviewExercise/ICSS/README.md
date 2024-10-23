@@ -29,7 +29,7 @@
 
 - For example: the prefix "46732".
 
-- Create 13 “price” objects to store the operator ID and price. The corresponding prefixes of this price will be represented by the Trie's structure. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+- After getting the longest prefix-matching for each operator (if there is a match), we only need to check each returned item to find the one with the lowest price.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/5.jpg)
 
