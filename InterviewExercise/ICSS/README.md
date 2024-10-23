@@ -23,7 +23,7 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/3.jpg)
 
-- Create 17 price list objects for these 17 nodes. Each price list object contains the prices of operators with the same prefix which belong to this node. Refer to [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out).
+- Create 17 price list objects for these 17 nodes. Each price list object contains the prices of operators with the same prefix which belong to this node. Refer to lines 46-74 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L46) and lines 40-57 of [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out#L40).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
 
