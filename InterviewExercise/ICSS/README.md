@@ -23,11 +23,17 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/3.jpg)
 
-- Create 17 price list objects for these 17 nodes. Each price list object contains the prices of operators with the same prefix which belong to this node. Refer to lines 46-74 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L46) and lines 40-57 of [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out#L40).
+- Create 17 prefix list objects for these 17 nodes. Each prefix list object contains the prices of operators with the same prefix which belong to the node with the same index. Refer to lines 46-74 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L46) and lines 40-57 of [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out#L40).
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
 
-- For example: the prefix "46732".
+- For example: prefix is "46732". 
+  1. The first number is "4". From the root node (nodes[0]), we find out the value in the index 4 is 5. This means we need to move to nodes[5].
+  2. Next number is "6". 
+  3. 
+  4. 
+  5. 
+  6. 
 
 - After getting the longest prefix-matching for each operator (if there is a match), we only need to check each returned item to find the one with the lowest price. Refer to lines 206-214 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L206)
 
