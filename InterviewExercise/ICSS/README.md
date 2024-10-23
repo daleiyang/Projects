@@ -1,15 +1,11 @@
-## Background
-- Submitter: Dalei Yang
+## Submitter
+- Dalei Yang
 - [Resume](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Dalei%20Yang%20Resume%2024.10.18.V2.pdf)
 - [Cover Letter](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Cover%20Letter.txt)
 - [2024 Programming Exercise](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/2024%20Programming%20Exercise.pdf)
 
-## Data Structure
-- The key value in the hash table is a 64-bit integer:
-- 54 bytes are reserved for the business logic to set the real key value; 
-- 1 byte is used to mark whether the “writer” has obtained an exclusive lock; 
-- 1 byte is used to mark whether this record has been deleted or not; 
-- 8 byte are used to record the number of “readers”. 
+## Algorithm
+- Use a trie (prefix tree) to solve this problem.
 
 ![alt tag](https://github.com/daleiyang/LockFreeHashTable/raw/master/DataStructure.png)
 
