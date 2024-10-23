@@ -9,9 +9,10 @@
 - [Cover Letter](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Cover%20Letter.txt)
 
 ## Algorithm
-- Use a trie (prefix tree) to solve this problem.
+- I use a Trie (prefix tree) to solve this problem.
 
-- I used test cases in "2024 Programming Exercises" to demonstrate Trie's mechanism.
+- I used test cases in "2024 Programming Exercises" to demonstrate my implementation.
+
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/1.jpg)
 
 - The combination of linkId, clcId, sbp in the figure above becomes the key value of the business logic, with a size of 54 bytes.
