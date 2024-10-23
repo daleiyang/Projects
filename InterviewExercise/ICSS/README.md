@@ -28,12 +28,12 @@
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/4.jpg)
 
 - For example: prefix is "46732". 
-  1. The first number is "4". From the root node (nodes[0]), we find out the value in the index 4 is 5. This means we need to move to nodes[5].
-  2. Next number is "6". 
-  3. 
-  4. 
-  5. 
-  6. 
+  a. The first number is "4". From the root node (nodes[0]), we find out the value in the nodes[0][4] is 5. This means we need to move to nodes[5].
+  b. Next number is "6". 
+  c. 
+  d. 
+  e. 
+  f. 
 
 - After getting the longest prefix-matching for each operator (if there is a match), we only need to check each returned item to find the one with the lowest price. Refer to lines 206-214 of [trie.c](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.c#L206)
 
