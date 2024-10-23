@@ -33,3 +33,8 @@
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/5.jpg)
 
+## In previous work and study, I have used Trie in the following examples:
+
+- In the first page of my resume, in the "Project experience" section, project named "User Intent Recognition - Latest News Recommendation". Refer to lines 62~210 of [Storage.h](https://github.com/daleiyang/Projects/blob/main/LatestNewsRecommendation/service/Storage.h#L62). You will see a Trie implementation with a similar coding style.
+
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/6.jpg)
