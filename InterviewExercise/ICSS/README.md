@@ -41,13 +41,13 @@
 
 ## Test Cases:
 
-- In addition, I added two test cases, one to test the situation where the operator cannot be found.
+- Additionally, I've added two test cases, one to cover the case where the operator is not found.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/7.jpg)
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/9.jpg)
 
-- The other to test the case where the input is empty.
+- Another cover the case where the input is empty.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/8.jpg)
 
@@ -55,6 +55,6 @@
 
 ## In previous work and study, I have used Trie in the following examples:
 
-- In the first page of my resume, in the "Project experience" section, project named "User Intent Recognition - Latest News Recommendation". Refer to lines 62~210 of [Storage.h](https://github.com/daleiyang/Projects/blob/main/LatestNewsRecommendation/service/Storage.h#L62). You will see a Trie implementation with a similar coding style.
+- In the "Project Experience" section on the first page of my resume, the project is called "User Intent Recognition - Latest News Recommendation". Refer to lines 62-210 of [Storage.h](https://github.com/daleiyang/Projects/blob/main/LatestNewsRecommendation/service/Storage.h#L62). You will see a Trie implementation with a similar coding style.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/6.jpg)
