@@ -58,3 +58,11 @@
 - In the "Project Experience" section on the first page of my resume, the project is called "User Intent Recognition - Latest News Recommendation". Refer to lines 62-210 of [Storage.h](https://github.com/daleiyang/Projects/blob/main/LatestNewsRecommendation/service/Storage.h#L62). You will see a Trie implementation with a similar coding style.
 
 ![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/6.jpg)
+
+## How to run this code?
+
+- Download trie.c, trie.in, trie.out. 
+- g++ trie.c -o trie -DLOCAL
+- ./trie
+
+![alt tag](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/pics/11.jpg)
