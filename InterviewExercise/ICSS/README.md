@@ -5,8 +5,8 @@
 - Test Cases  Input: [trie.in](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.in)
 - Test Cases Result: [trie.out](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/trie.out)
 
-- [Resume](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Dalei%20Yang%20Resume%2024.10.25.pdf)
-- [Cover Letter](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Cover%20Letter_Dalei%20Yang.docx)
+- [Resume](https://github.com/daleiyang/Projects/blob/main/InterviewExercise/ICSS/Dalei%20Yang%20Resume%2024.10.25.pdf) Please download and view it for easy access to the links in the file.
+- [Cover Letter](https://github.com/daleiyang/Projects/raw/refs/heads/main/InterviewExercise/ICSS/Cover%20Letter_Dalei%20Yang.docx)
 
 ## Algorithm
 - I use a Trie (prefix tree) to solve this problem.
